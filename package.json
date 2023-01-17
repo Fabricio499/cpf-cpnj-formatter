@@ -1,27 +1,4 @@
 {
   "name": "cpf-cpnj-formatter",
-  "version": "1.0.0",
-  "description": "Brazilian CPF and CNPJ formatter",
-  "main": "dist/index.js",
-  "types" : "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc",
-    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/teste.ts"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Fabricio499/cpf-cpnj-formatter.git"
-  },
-  "author": "Fabricio da Costa",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Fabricio499/cpf-cpnj-formatter/issues"
-  },
-  "homepage": "https://github.com/Fabricio499/cpf-cpnj-formatter#readme",
-  "devDependencies": {
-    "@types/node": "^18.11.18",
-    "ts-node": "^10.9.1",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^4.9.4"
-  }
+  "packageManager": "yarn@3.3.1"
 }
